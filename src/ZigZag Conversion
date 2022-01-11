@@ -8,7 +8,7 @@ And then read line by line: "PAHNAPLSIIGYIR"
 Write the code that will take a string and make this conversion given a number of rows:
 
 
-class Solution {
+class ReverseDuplicates {
       public String convert(String s, int numRows) {
         List<StringBuilder> list = new ArrayList<>();
         for (int i = 0; i < numRows; i++) {

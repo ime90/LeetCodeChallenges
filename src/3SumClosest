@@ -6,7 +6,7 @@ You may assume that each input would have exactly one solution.
 
 
 
-class Solution {
+class ReverseDuplicates {
     public int threeSumClosest(int[] nums, int target) {
         int sum = Integer.MAX_VALUE;
         Arrays.sort(nums);

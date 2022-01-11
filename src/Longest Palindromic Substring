@@ -1,6 +1,6 @@
 Given a string s, return the longest palindromic substring in s.
 
-class Solution {
+class ReverseDuplicates {
        public String longestPalindrome(String s) {
         if (s == null || s.length() < 1) return "";
         int start = 0, end = 0;
